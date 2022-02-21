@@ -18,14 +18,27 @@ function currentTime(){
         document.getElementById('hours').innerText = hr;
     }
 
+    
+
     for(let i=0;i<=month;i++){
         if(month == i){
             document.getElementById('month').innerText = months[i];
         }
     }
 
-    document.getElementById('minutes').innerText = min;
-    document.getElementById('seconds').innerText = sec;
+    if(min<10){
+        document.getElementById('minutes').innerText = "0"+min;
+    }
+    else{
+        document.getElementById('minutes').innerText = min;
+    }
+
+    if(sec<10){
+        document.getElementById('seconds').innerText = "0"+sec
+    }
+    else{
+        document.getElementById('seconds').innerText = sec;
+    }
     document.getElementById('year').innerText = year;
     document.getElementById('date').innerText = date;
    
