@@ -1,6 +1,6 @@
 # Digital-Watch using JS 🕓
 
-### Live site 👉 https://rifat-ishtiyak.github.io/Digital-Watch/
+### Live site 👉 https://ishtiyak98.github.io/Digital-Watch
 
 <br>
 
